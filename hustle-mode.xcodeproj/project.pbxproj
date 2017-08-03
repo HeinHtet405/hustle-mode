@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEA037021F330E6C00C22003 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEA037011F330E6C00C22003 /* hustle-on.wav */; };
 		EEDD59951F32EDBA00D4D873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD59941F32EDBA00D4D873 /* AppDelegate.swift */; };
 		EEDD59971F32EDBA00D4D873 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDD59961F32EDBA00D4D873 /* ViewController.swift */; };
 		EEDD599A1F32EDBA00D4D873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEDD59981F32EDBA00D4D873 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EEA037011F330E6C00C22003 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 		EEDD59911F32EDBA00D4D873 /* hustle-mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hustle-mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDD59941F32EDBA00D4D873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEDD59961F32EDBA00D4D873 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		EEDD59931F32EDBA00D4D873 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				EEA037011F330E6C00C22003 /* hustle-on.wav */,
 				EEDD59941F32EDBA00D4D873 /* AppDelegate.swift */,
 				EEDD59961F32EDBA00D4D873 /* ViewController.swift */,
 				EEDD59981F32EDBA00D4D873 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA037021F330E6C00C22003 /* hustle-on.wav in Resources */,
 				EEDD599F1F32EDBA00D4D873 /* LaunchScreen.storyboard in Resources */,
 				EEDD599C1F32EDBA00D4D873 /* Assets.xcassets in Resources */,
 				EEDD599A1F32EDBA00D4D873 /* Main.storyboard in Resources */,
@@ -304,6 +308,7 @@
 				EEDD59A51F32EDBA00D4D873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
